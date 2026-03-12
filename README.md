@@ -9,3 +9,13 @@ LangChain
 ChromaDB
 OpenAI
 Sentence Transformers
+
+PDF Documents
+     ↓
+Load text
+     ↓
+Split into chunks
+     ↓
+Generate embeddings
+     ↓
+Store in Vector Database
