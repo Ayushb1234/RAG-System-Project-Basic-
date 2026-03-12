@@ -1,51 +1,69 @@
-# Python cache
+# =========================
+# Python
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py[cod]
+*.so
 
+# =========================
 # Virtual environments
+# =========================
+.venv/
 venv/
 env/
-detectron2_env/
-.venv/
+ENV/
 
+# =========================
 # Environment variables
+# =========================
 .env
+.env.*
 
-# OS files
-.DS_Store
-Thumbs.db
+# =========================
+# Vector database (generated)
+# =========================
+vector_db/
+chroma/
+*.db
+*.sqlite3
 
-# IDE files
+# =========================
+# Local data / PDFs
+# =========================
+data/documents/
+datasets/
+*.pdf
+*.csv
+*.json
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
 .vscode/
 .idea/
 
-# Logs
-*.log
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
 
-# Vector database storage
-vector_db/
-
-# Model weights
-*.pt
-*.pth
-*.ckpt
-*.bin
-
-# Dataset files
-*.csv
-*.tsv
-*.json
-*.zip
-
-# PDF documents (optional)
-data/documents/
-
+# =========================
 # Build files
+# =========================
 build/
 dist/
 *.egg-info/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
