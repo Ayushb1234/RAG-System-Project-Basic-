@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+detectron2_env/
+.venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Vector database storage
+vector_db/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Dataset files
+*.csv
+*.tsv
+*.json
+*.zip
+
+# PDF documents (optional)
+data/documents/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
